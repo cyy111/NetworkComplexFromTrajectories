@@ -23,6 +23,9 @@ Dependencies
 * numpy
 * scipy 
 
+Running
+------------
+python generateNetwork.py file:workflowname --pathGPX /path/to/dataset/GPXs/ --pathNPY /path/to/file/nameOfRoutes.npy
 
 Some examples:
 ![Image of Example1](https://github.com/wisaaco/NetworkComplexFromTrajectories/blob/master/img/file1.png)
