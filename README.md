@@ -15,15 +15,18 @@ nx.write_graphml(G,"test.graphml")
 
 Dependencies
 ------------
-* `toil <https://github.com/BD2KGenomics/toil>`__
-* `gpxpy <https://github.com/tkrajina/gpxpy>`__
-* `geopy <https://github.com/geopy/geopy>`__
-* `networkx <https://github.com/networkx>`__
+* [Toil](https://github.com/BD2KGenomics/toil)
+* [gpxpy](https://github.com/tkrajina/gpxpy)
+* [geopy](https://github.com/geopy/geopy)
+* [networkx](https://github.com/networkx)
 * numpy
 * scipy 
 
 
 Some examples:
+![Image of Example1](https://github.com/wisaaco/NetworkComplexFromTrajectories/img/file1.png)
+![Image of Example2](https://github.com/wisaaco/NetworkComplexFromTrajectories/img/file2.png)
+![Image of Example3](https://github.com/wisaaco/NetworkComplexFromTrajectories/img/file3.png)
+![Image of Example4](https://github.com/wisaaco/NetworkComplexFromTrajectories/img/file4.png)
 
-[[https://github.com/wisaaco/NetworkComplexFromTrajectories/img/file1.png|alt=octocat]]
 
