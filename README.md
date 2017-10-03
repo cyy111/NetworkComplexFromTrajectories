@@ -1,7 +1,8 @@
 # Network Complex From Trajectories
 
 This generates the complex network from a set of GPX trajectories. 
-It is the implementation of this process: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177712
+It is the implementation of this process:
+"Analysing human mobility patterns of hiking activities through complex network theory" http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0177712
 
 It is implemented using TOIL workflow library. It requieres some improvements in order to execute in the cloud. Input files should be modified.
 
