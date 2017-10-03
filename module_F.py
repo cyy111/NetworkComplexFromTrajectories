@@ -7,15 +7,12 @@ Created on Tue Oct  3 13:22:45 2017
 
 __author__ = 'isaac'
 
-#GENERA UN NUEVO FICHERO CON LOS NODOS entre SINGLE Y DOUBLE
+# Merge Single Nodes and Intersection Nodes
 #
 
 import gpxpy
 import numpy as np
 from geopy.distance import vincenty
-
-pathFile = "cimasData/Massanella/"
-
 
 def joinSNIN(job,option):
 
@@ -133,16 +130,4 @@ def joinSNIN(job,option):
     job.fileStore.exportFile(outComputeSNID, 'file:///Users/isaac/IdeaProjects/Network_Workflow/FNodes.npy')
     
   
-  
-#      
-#def helloWorld3(job, options):
-#    job.fileStore.logToMaster("Hello 3")
-#    sortFileID = job.fileStore.importFile('file:///Users/isaac/IdeaProjects/Network_Workflow/SNnodes.csv')
-#    with job.fileStore.readGlobalFileStream(sortFileID) as fH:
-#        codes2 = np.load(fH)
-#
-#    for code in codes2:
-#        job.fileStore.logToMaster("HW3: code file: %s"%code)
-#
-#    time.sleep(2)
-#    job.fileStore.logToMaster("END Hello 3")
+ 
