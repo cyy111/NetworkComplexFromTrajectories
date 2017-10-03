@@ -24,9 +24,9 @@ Dependencies
 
 
 Some examples:
-![Image of Example1](https://github.com/wisaaco/NetworkComplexFromTrajectories/img/file1.png)
-![Image of Example2](https://github.com/wisaaco/NetworkComplexFromTrajectories/img/file2.png)
-![Image of Example3](https://github.com/wisaaco/NetworkComplexFromTrajectories/img/file3.png)
-![Image of Example4](https://github.com/wisaaco/NetworkComplexFromTrajectories/img/file4.png)
+![Image of Example1](https://github.com/wisaaco/NetworkComplexFromTrajectories/blob/master/img/file1.png)
+![Image of Example2](https://github.com/wisaaco/NetworkComplexFromTrajectories/blob/master/img/file2.png)
+![Image of Example3](https://github.com/wisaaco/NetworkComplexFromTrajectories/blob/master/img/file3.png)
+![Image of Example4](https://github.com/wisaaco/NetworkComplexFromTrajectories/blob/master/img/file4.png)
 
 
