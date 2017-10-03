@@ -39,7 +39,7 @@ def joinSNIN(job,option):
             routeCoordsIn = coordsIN[coordsIN[:,2]==route]
             routeCoordsIn2 = coordsIN[coordsIN[:,3]==route]
            
-            assert len(routeCoordsSN)<2
+#            assert len(routeCoordsSN)<2
     
             sort_coords = []    
             sort_coords.append(routeCoordsSN[0][0:3].tolist())   
@@ -84,7 +84,7 @@ def joinSNIN(job,option):
         routeCoordsSN = coordsSN[coordsSN[:,2]==route]
         routeCoordsIn = coordsIN[coordsIN[:,3]==route]
             
-        assert len(routeCoordsSN)<2
+#        assert len(routeCoordsSN)<2
     
         sort_coords = []
         sort_coords.append(routeCoordsSN[0][0:3].tolist())   
