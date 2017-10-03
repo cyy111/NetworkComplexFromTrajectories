@@ -11,8 +11,10 @@ The main parameters are two: a path with GPX files, and a array (npy format) wit
 The dataset is not included
 
 **Note** This version only generates a SHAPE file, but the result can be modified in module_Net for example:
+```
 nx.write_gexf(G,"test.gexf") 
 nx.write_graphml(G,"test.graphml") 
+```
 
 Dependencies
 ------------
@@ -25,7 +27,9 @@ Dependencies
 
 Running
 ------------
+```
 python generateNetwork.py file:workflowname --pathGPX /path/to/dataset/GPXs/ --pathNPY /path/to/file/nameOfRoutes.npy
+```
 
 Some examples:
 ![Image of Example1](https://github.com/wisaaco/NetworkComplexFromTrajectories/blob/master/img/file1.png)
@@ -33,4 +37,4 @@ Some examples:
 ![Image of Example3](https://github.com/wisaaco/NetworkComplexFromTrajectories/blob/master/img/file3.png)
 ![Image of Example4](https://github.com/wisaaco/NetworkComplexFromTrajectories/blob/master/img/file4.png)
 
-
+PD: There are a notable lack of comments, and some of them are in spanish.
