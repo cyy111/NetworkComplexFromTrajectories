@@ -5,27 +5,11 @@ Created on Tue Oct  3 13:31:15 2017
 @author: isaac
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Sep 23 09:49:22 2016
-
-SE ANALIZA EL CASO DE LOS NODOS INTER 
-
-@author: isaac
-"""
 
 import numpy as np
-import pandas as pd
-from itertools import cycle
-from matplotlib import pyplot as plt
 from sklearn.cluster import MeanShift, estimate_bandwidth
 import networkx as nx      
-from geopy.distance import vincenty
-import scipy
-from scipy.optimize import curve_fit
-from scipy.stats import expon
-import scipy.optimize as optimize
-    
+   
     
     
 """
